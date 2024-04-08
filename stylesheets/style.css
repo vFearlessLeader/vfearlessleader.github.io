@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light Gray */
+    color: #000; /* Black */
+    min-height: 100vh;
+}
+
+header {
+    background-color: #006400; /* Dark Green */
+    color: #ffd700; /* Gold */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a li {
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #ffd700; /* Gold */
+}
+
+nav ul a li:hover {
+    background-color: #228b22; /* Forest Green */
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+}
+
+#sidebar {
+    background-color: #006400;
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;
+}
+#sidebar ul a li {
+  list-style-type: none;
+  color: #ffd700; /* Gold */
+  padding-bottom: 15px;
+}
+#sidebar ul a {
+  text-decoration: none;
+}
+#content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333; /* Dark Gray */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 10px;
+}
+.feature {
+    display: flex;
+}
+
+.image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.text {
+    flex: 2;
+}
+
+footer {
+    background-color: #333; /* Dark Gray */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Button Style */
+.btn {
+    display: inline-block;
+    background-color: #006400; /* Dark Green */
+    color: #ffd700; /* Gold */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #228b22; /* Forest Green */
+    font-weight: bold;
+}
